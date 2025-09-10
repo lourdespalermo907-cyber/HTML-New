@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Mascotas</title>
+</head>
+<body>
+
+    <h1>Veterinaria saracatunga</h1>
+    <h2>Listado de mascotas</h2>
+
+    <!-- Tabla -->
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo</th>
+                <th>Raza</th>
+                <th>Edad</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>luna</td>
+                <td>Gato</td>
+                <td>Siames</td>
+                <td>2 años</td>
+                <td>Gris</td>
+            </tr>
+            <tr>
+                <td>zora</td>
+                <td>Perro</td>
+                <td>ovejero</td>
+                <td>5 años</td>
+                <td>marron y dorado</td>
+            </tr>
+            <tr>
+                <td>moon</td>
+                <td>Gato</td>
+                <td>persa</td>
+                <td>5 año</td>
+                <td>atigrado</td>
+            </tr>
+            <tr>
+                <td>roco</td>
+                <td>Perro</td>
+                <td>bulldog</td>
+                <td>3 años</td>
+                <td>marrón</td>
+            </tr>
+            <tr>
+                <td>mandarina</td>
+                <td>Gato</td>
+                <td>psicotico</td>
+                <td>2 años</td>
+                <td>naranja</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Agregar Nueva Mascota</h2>
+
+    <!-- Formulario -->
+    <form>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required> <br><br>
+
+        <label>Tipo:</label>
+        <select required>
+            <option value="Gato">Gato</option>
+            <option value="Perro">Perro</option>
+        </select><br><br>
+
+        <label >Raza:</label><br>
+        <input type="text" ><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" min="0" max="30"> años<br><br>
+
+        <label >Color:</label><br>
+        <input type="text"><br><br>
+
+        <input type="submit" value="Agregar Mascota">
+        <input type="reset" value="Limpiar">
+    </form>
+
+</body>
+</html>
