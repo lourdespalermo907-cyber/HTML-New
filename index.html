@@ -5,11 +5,12 @@
 </head>
 <body>
 
-    <h1>Veterinaria saracatunga</h1>
-    <h2>Listado de mascotas</h2>
+    <h1>🐾 Veterinaria saracatunga🐾 </h1>
+    <h2>📋Listado de mascotas</h2>
 
     <!-- Tabla -->
-    <table border="1" cellpadding="5" cellspacing="0">
+    <table border="1" cellpadding="8" cellspacing="0" align="center">
+        <caption><b>Registro Actual de Mascotas</b></caption>
         <thead>
             <tr>
                 <th>Nombre</th>
@@ -58,10 +59,12 @@
         </tbody>
     </table>
 
-    <h2>Agregar Nueva Mascota</h2>
+    <h2>➕ Agregar Nueva Mascota</h2>
 
     <!-- Formulario -->
     <form>
+      <fieldset>
+        <legend><b>Datos de la Mascota</b></legend>
         <label>Nombre:</label>
         <input type="text" name="nombre" required> <br><br>
 
@@ -79,6 +82,7 @@
 
         <label >Color:</label><br>
         <input type="text"><br><br>
+      </fieldset>
 
         <input type="submit" value="Agregar Mascota">
         <input type="reset" value="Limpiar">
